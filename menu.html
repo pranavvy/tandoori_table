@@ -1,0 +1,905 @@
+<!-- 
+	A Creation by Future Developments 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="/images/logo-kabab-jpg.jpg" type="image/gif" sizes="16x16">
+	<title>Menu | Tandoori Table - Indian Cuisine</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  	<meta name="description" content="Authentic Indian Cuisine located in Fergus, Onatrio minutes away from the Elora Gorge Conservation Area and Belwood Lake Conservation Area." />
+	<meta name="keywords" content="tandoori table, indian food, food, takeout, delivery, fergus, elora, wellington, specials, Belwood Lake Conservation Area, Elora Gorge Conservation Area, fast food" />
+  
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+	<link href="css/owl.theme.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet"> 
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- light-box -->
+	<link rel="stylesheet" href="css/lightbox.css">
+	<!-- //light-box -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!--search jQuery-->
+	<script src="js/main.js"></script>
+	<!--//search jQuery-->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+
+	<script>
+	$(document).ready(function() { 
+		$("#owl-demo").owlCarousel({
+	
+			autoPlay: 3000, //Set AutoPlay to 3 seconds
+			autoPlay:true,
+			items : 4,
+			itemsDesktop : [640,5],
+			itemsDesktopSmall : [414,4]
+	
+		});
+		
+	}); 
+	</script>
+</head>
+<body>
+	<div class="w3layouts-banner-top">
+      
+    <!-- banner -->
+	<div class="banner">
+		<div class="top-banner">
+			<div class="container">
+				<div class="top-banner-left">
+					<ul>
+						<li><a href="https://www.google.ca/maps/place/Tandoori+Table/@43.7063884,-80.3636602,17z/data=!3m1!4b1!4m5!3m4!1s0x882bbd0fa453d101:0x37ce367d51c337a0!8m2!3d43.7063845!4d-80.3614715" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> 600 Scotland St, Fergus, ON </a></li>
+						<li><i class="fa fa-phone" aria-hidden="true"></i> +1 226 370 0600</li>
+						<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 
+							
+								<div class="hoursOfOpp">
+									<button class="hoursBtn" id="hoursBtn"></button>
+									<div id="hoursOfOpp" class="hours-content">
+									  <div>TUES - THURS | 4PM - 9PM</div>
+									  <div>FRI - SUN | 4PM - 9PM</div>
+									</div>
+								</div>
+
+								<button onclick="openHours()" class="hoursBtn fa fa-angle-down" aria-hidden="true"></button>
+                      	</li>
+					</ul>
+				</div>
+				<div class="top-banner-right">
+					<ul>
+						<li><a class="facebook" href="https://www.facebook.com/tandooritable" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a class="facebook" href="https://twitter.com/tandooritable" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a class="facebook" href="https://www.instagram.com/tandooritable/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="/images/logo-no-bg.png" width="200"></a>
+				</div>
+              	<div id="specialAnnouncement">
+					Catering available over the holidays. Please contact us for more information!
+				</div>
+				<!-- navigation menu -->
+				<div class="top-nav">
+					<nav class="navbar navbar-default">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="fa fa-bars"></span>				
+							</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a class="active" href="menu.html">Menu</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- banner -->
+
+	<hr>
+      
+	<!-- menu-form
+	
+		To-do: 
+			- tandoori veg
+			- tandoori non-veg
+			- entrees veg
+			- entrees non-veg
+
+			- put prices with item description not beside title
+	-->
+	<div class="menu-form">
+		<div class="menu-info"> 
+			<div role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav menu-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#specials" id="specials-tab" role="tab" data-toggle="tab" aria-controls="specials" aria-expanded="true" class="menu-tab-links">Specials</a></li>
+					<li role="presentation"><a href="#appetizers" id="appetizers-tab" role="tab" data-toggle="tab" aria-controls="appetizers" class="menu-tab-links">Appetizers</a></li>	
+					<li role="presentation"><a href="#salad" role="tab" id="salad-tab" data-toggle="tab" aria-controls="salad" class="menu-tab-links">Salads</a></li>
+					<li role="presentation"><a href="#tandoori" role="tab" id="tandoori-tab" data-toggle="tab" aria-controls="tandoori" class="menu-tab-links">Tandoori</a></li>
+					<li role="presentation"><a href="#entrees" role="tab" id="entrees-tab" data-toggle="tab" aria-controls="entrees" class="menu-tab-links">Entrees</a></li>
+					<li role="presentation"><a href="#rice" role="tab" id="rice-tab" data-toggle="tab" aria-controls="rice" class="menu-tab-links">Rice</a></li>
+					<li role="presentation"><a href="#breads" role="tab" id="breads-tab" data-toggle="tab" aria-controls="breads" class="menu-tab-links">Breads</a></li>
+					<li role="presentation"><a href="#wraps" role="tab" id="wraps-tab" data-toggle="tab" aria-controls="wraps" class="menu-tab-links">Wraps</a></li>
+					<li role="presentation"><a href="#deserts" role="tab" id="deserts-tab" data-toggle="tab" aria-controls="deserts" class="menu-tab-links">Desserts</a></li>					
+					<li role="presentation"><a href="#sns" role="tab" id="sns-tab" data-toggle="tab" aria-controls="sns" class="menu-tab-links">Sides/Soup</a></li>
+					<li role="presentation"><a href="#drinks" role="tab" id="drinks-tab" data-toggle="tab" aria-controls="drinks" class="menu-tab-links">Drinks</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<!-- Special -->
+					<div role="tabpanel" class="tab-pane fade in active" id="specials" aria-labelledby="specials-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Veggie Thali</h4>
+									<p>2 Vegetarian Curries, Salad , Chutney, Raita, Dessert, Rice</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Non-Veg Thali</h4>
+									<p>1 Meat Curry, 1 Vegetarian Curry, Salad , Chutney, Raita, Dessert, Rice</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Meal for 1</h4>
+									<p>Choice of one entree (Butter Chicken, Chicken Curry, Aloo Gobi, Channa Masala), Basmati Rice, Tandoori Naan and a Samosa</p>
+								</div> 
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Meal for 2</h4>
+									<p>Choice of two entrees (Butter Chicken or Chicken Curry, Aloo Gobi or Channa Masala), Basmati Rice, Tandoori Naan and 2 Samosa</p>
+								</div> 
+							</div>
+                          	<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Meal for 3</h4>
+									<p>Includes three entrees (Butter Chicken or Chicken Curry), Aloo Gobi, Channa Masala, Basmati Rice, Tandoori Naan, 3 Samosa and Dessert</p>
+								</div> 
+							</div>
+                         	<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Meal for 4</h4>
+									<p>Includes Butter Chicken, Chicken Curry, Aloo Gobi, Channa Masala, Basmati Rice, Tandoori Naan, 4 Samosa and Dessert</p>
+								</div>
+							</div>
+                         	<!--<div class="menu-items">
+								<div class="menu-dish" style="text-align: center;">
+									<h4>Weekday Lunch Buffet</h4>
+									<p>11 am to 2 pm - 15</p>
+								</div> 
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish" style="text-align: center;">
+									<h4>Friday & Saturday Buffet</h4>
+									<p>4 pm to 9 pm - 20</p>
+								</div> 
+							</div>-->
+						</div>
+					</div>
+					<!-- App -->
+					<div role="tabpanel" class="tab-pane fade" id="appetizers" aria-labelledby="appetizers-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Aloo Tikki Plate</h4>
+									<p>Deep fried potato patties topped with channa masala</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Samosa Plate</h4>
+									<p>Crispy pastry filled with potatoes. green peas & a special blend of masala, topped with channa masala</p>
+								</div> 
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chat Papri</h4>
+									<p>Flour crisps topped with yogurt, potatoes, chickpeas, diced onions and spices</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Doubles</h4>
+									<p>Channa masala wrapped inside a fluffy roti</p>
+								</div> 
+							</div>	
+							<!-- <div class="menu-items">
+								<div class="menu-dish">
+									<h4>Dahi Bhalla</h4>
+									<p>Porttitor vestibulum rerum hic a sapiente delectus - 6</p>
+								</div>
+							</div> -->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Masala Fries</h4>
+									<p>Fries mixed with veggies and topped with a special blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Indian Style Poutine</h4>
+									<p>Fries topped with butter chicken or shahi paneer</p>
+								</div>
+							</div>
+							<!-- <div class="menu-items">
+								<div class="menu-dish">
+									<h4>Bread Pakora</h4>
+									<p>Fried bread topped with a blend of masala - 6</p>
+								</div>
+							</div> -->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Vegetable Pakora</h4>
+									<p>Assorted veggies deep fried topped with a blend of masala</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Paneer Pakora</h4>
+									<p>Deep fried paneer topped with a blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Pakora</h4>
+									<p>Crispy chicken topped with a blend of masala</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Salad -->
+					<div role="tabpanel" class="tab-pane fade" id="salad" aria-labelledby="salad-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Fresh Green Salad</h4>
+									<p>Mixture of fresh greens topped with croutons & dressing</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Kachumber Salad</h4>
+									<p>Mixture of cucumbers, tomatoes & onions topped with a special blend of masala & freshly squished lime juice</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Paneer Tikka Salad</h4>
+									<p>Mixture of fresh greens, veggies & flavorful paneer tikka</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tandoori Chicken Salad</h4>
+									<p>Mixture of fresh greens, veggies & savory tandoori chicken</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Tandoori -->
+					<div role="tabpanel" class="tab-pane fade" id="tandoori" aria-labelledby="tandoori-tab">
+						<div class="tab-info menu-container">
+							<!-- Veg -->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Paneer Tikka</h4>
+									<p>Marinated paneer cooked in our tandoor</p>
+								</div> 
+							</div>	
+							<!-- <div class="menu-items">
+								<div class="menu-dish">
+									<h4>Vegetable Kabab</h4>
+									<p>A special dish which words can do little justice for - 12</p>
+								</div>
+							</div> -->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Vegetable Sizzler</h4>
+									<p>A range of veggies cooked in our tandoori</p>
+								</div>
+							</div>
+							<!-- Meat -->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Tikka</h4>
+									<p>Marinated chicken cooked in our tandoor</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Sheekh Kabab</h4>
+									<p>Minced chicken mixed with a special blend of herbs and grilled in our tandoor</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lamb Sheekh Kabab</h4>
+									<p>Minced lamb mixed with a special blend of herbs and grilled in our tandoor</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Fish Tikka</h4>
+									<p>Marinated fish cooked in our tandoor</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tandoori Sizzler Platter</h4>
+									<p>Combination platter of chicken tikka, fish tikka, paneer tikka and lamb sheekh kabab</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tandoori Chicken</h4>
+									<p>Marinated chicken cooked in our tandoor</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tandoori Prawns</h4>
+									<p>Marinated prawns cooked in our tandoor</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Entrees -->
+					<div role="tabpanel" class="tab-pane fade" id="entrees" aria-labelledby="entrees-tab">
+						<div id="menu-entrees-info">A portion of rice is included with each entree.</div>
+
+						<div class="tab-info menu-container">
+							<!-- Veg -->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Channa Masala</h4>
+									<p>Chick peas cooked in a savory gravy</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Mix'd Vegetable</h4>
+									<p>Assorted veggies slow cooked with a blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Aloo Gobi</h4>
+									<p>Potatoes & cauliflower cooked with a blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Dal Makhani</h4>
+									<p>Lentils simmered to perfection with a blend of masala</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Baigan Bharta</h4>
+									<p>Roasted eggplant cooked with veggies & a blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Shahi Paneer</h4>
+									<p>Paneer cooked in a creamy gravy</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Kadhai Paneer</h4>
+									<p>A medley of peppers, onions and cottage cheese cooked in our rich tomato gravy</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Mattar Paneer</h4>
+									<p>Paneer and peas cooked in our rich tomato gravy</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Palak Paneer</h4>
+									<p>Paneer combined with spinach to give it a bold, distinct flavor</p>
+								</div>
+							</div>
+							<!-- Meat -->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Butter Chicken</h4>
+									<p>Chicken stirred in a creamy gravy</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Curry</h4>
+									<p>Slow cooked chicken with mixed veggies and a special blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Vindaloo</h4>
+									<p>Chicken simmered in curry sauce with traditional spices</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chilli Chicken</h4>
+									<p>Tender chicken combined with spices and vegetables that will have your mouth buzzing</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Korma</h4>
+									<p>Chicken cooked with a special blend of masala and authentic curry sauce</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Tikka Masala</h4>
+									<p>Diced chicken cooked in a creamy gravy topped with a special blend of masala</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lamb Rogan Josh</h4>
+									<p>Lamb simmered with our special curry sauce</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lamb Korma</h4>
+									<p>Lamb cooked with a special blend of masala and authentic curry sauce</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lamb Saag</h4>
+									<p>Lamb complimented with spinach and spices to give it a unique flavor</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lamb Curry</h4>
+									<p>Lamb cooked with a rich mixture of tomatoes, onion and our classic curry sauce</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lamb Vindaloo</h4>
+									<p>Lamb simmered in curry sauce with traditional spices</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Fish Malabar</h4>
+									<p>Tilapia cooked with a cashew based curry sauce</p>
+								</div> 
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Prawn Vindaloo</h4>
+									<p>Prawn simmered in curry sauce with traditional spices</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Rice -->
+					<div role="tabpanel" class="tab-pane fade" id="rice" aria-labelledby="rice-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Plain Basmati Rice</h4>
+									<p>Basmati rice garnished with fried onion and coriander</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Jeera Fried Rice</h4>
+									<p>Basmati rice fried with cumin seeds and garnished with coriander</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Veggie Biryani</h4>
+									<p>Basmati rice cooked with assorted veggies & a special blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Chicken Biryani</h4>
+									<p>Basmati rice cooked with assorted veggies, diced chicken & a special blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lamb Biryani</h4>
+									<p>Basmati rice cooked with assorted veggies, diced lamb & a special blend of masala</p>
+								</div>
+							</div>
+						</div> 
+					</div>
+					<!-- Bread -->
+					<div role="tabpanel" class="tab-pane fade" id="breads" aria-labelledby="breads-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tandoori Roti</h4>
+									<p>Roti cooked in our tandoor</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tandoori Naan</h4>
+									<p>Tandoori baked flatbread</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Butter Naan</h4>
+									<p>Tandoori naan topped with butter</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Garlic Naan</h4>
+									<p>Tandoori naan topped with garlic butter mixture</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Laccha Paratha</h4>
+									<p>Layered flatbread baked in our tandoor</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Aloo Paratha</h4>
+									<p>Shredded potatoes stuffed flatbread baked in our tandoor</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Onion Paratha</h4>
+									<p>Diced onions stuffed flatbread baked in our tandoor</p>
+								</div>
+							</div>
+						</div> 
+					</div>
+					<!-- Wraps -->
+					<div role="tabpanel" class="tab-pane fade" id="wraps" aria-labelledby="wraps-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Stuffed Potato Wrap</h4>
+									<p>Wrap stuffed with masala mixed potatoes along with fresh greens & veggies</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Veggie Wrap</h4>
+									<p>Wrap stuffed with fresh greens, veggies and a special blend of masala</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Paneer Tikka Wrap</h4>
+									<p>Wrap stuffed with fresh greens, veggies, diced paneer and a special blend of masala</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tandoori Chicken Wrap</h4>
+									<p>Wrap stuffed with fresh greens, veggies, diced tandoori chicken and a special blend of masala</p>
+								</div>
+							</div>
+						</div> 
+					</div>
+					<!-- Desserts -->
+					<div role="tabpanel" class="tab-pane fade" id="deserts" aria-labelledby="deserts-tab">
+						<div class="tab-info menu-container">
+<!--
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Gajar Ka Halwa</h4>
+									<p>Indian style carrot pudding topped with raisins & nuts</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Kheer</h4>
+									<p>Indian style rice pudding - 4</p>
+								</div>
+							</div>
+-->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Gulab Jamun</h4>
+									<p>Indian style dumpling stewed in a sweet syrup</p>
+								</div>
+							</div>	
+                        <!--<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Ice Cream</h4>
+									<p>Mango, pistachio, chocolate or vanilla - 4</p>
+								</div>
+							</div> -->
+						</div> 
+					</div>
+					<!-- Sides and Soup -->
+					<div role="tabpanel" class="tab-pane fade" id="sns" aria-labelledby="sns-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Crispy Fries</h4>
+									<p>French fries cooked to perfection</p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Raita</h4>
+									<p>Yogurt mixed with cucumbers, potatoes and a special blend of spices</p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Soup of the Day</h4>
+									<p>Changing variety of freshly made soups</p>
+								</div>
+							</div>
+						</div> 
+					</div>
+					<!-- Drinks -->
+					<div role="tabpanel" class="tab-pane fade" id="drinks" aria-labelledby="drinks-tab">
+						<div class="tab-info menu-container">
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Pop Can</h4>
+									<p></p>
+								</div>
+							</div>	
+                          <!--<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Fountain Drink</h4>
+									<p></p>
+								</div>
+							</div>-->
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Coffee</h4>
+									<p></p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Tea</h4>
+									<p></p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Indian Tea</h4>
+									<p></p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Juice</h4>
+									<p></p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Lassi (Sweet/Masala)</h4>
+									<p></p>
+								</div>
+							</div>	
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Mango Lassi</h4>
+									<p></p>
+								</div>
+							</div>
+							<div class="menu-items">
+								<div class="menu-dish">
+									<h4>Rooh Afza Lassi</h4>
+									<p></p>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>	
+	<!-- //menu-form -->
+
+	<hr>
+
+	<!-- footer -->
+	<div class="w3-agile-footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Address</h4>
+					</div>
+					<div class="footer-grid-info">
+						<p>
+							<span>600 Scotland St, Fergus, ON</span>
+						</p>
+						<p class="phone">Phone : +1 226 370 0600
+							<span>Email : <a href="mailto:example@email.com">info@tandooritable.com</a></span>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Navigation</h4>
+					</div>
+					<div class="footer-grid-info">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="menu.html">Menu</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Follow</h4>
+					</div>
+					<div class="social">
+						<ul>
+							<li><a href="https://www.facebook.com/tandooritable" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/tandooritable" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/tandooritable/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Newsletter</h4>
+					</div>
+					<!-- Begin Mailchimp Signup Form -->
+					<div class="footer-grid-info" id="mc_embed_signup">
+						<form action="https://tandooritable.us19.list-manage.com/subscribe/post?u=3e41abf89a01c98e4b09e917c&amp;id=e0c88dd1a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
+								<div class="mc-field-group">
+									<input style="color: #212121" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email here">
+								</div>
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none; color: rgba(255,153,51,1)"></div>
+									<div class="response" id="mce-success-response" style="display:none; color: rgba(255,153,51,1)"></div>
+								</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3e41abf89a01c98e4b09e917c_e0c88dd1a0" tabindex="-1" value=""></div>
+								<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							</div>
+						</form>
+					</div>
+					<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+					<!--End mc_embed_signup-->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="agileits-w3layouts-copyright">
+				<p>Created by Future Developments</p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+            
+            var hoursBtn = document.querySelector('.hoursBtn');
+
+			hoursBtn.addEventListener('mouseover', openHours);
+			hoursBtn.addEventListener('mouseout', openHours);
+		
+		
+			function openHours() {
+			  document.getElementById("hoursOfOpp").classList.toggle("show");
+			}
+			
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.hoursBtn')) {
+				var dropdowns = document.getElementsByClassName("hours-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+
+			currentDayHours();
+
+			function currentDayHours() {
+				var d = new Date();
+
+				if (d.getDay() == 0)     {
+					document.getElementById("hoursBtn").innerHTML = 'SUN | 4PM - 9PM';
+				}
+
+				if (d.getDay() == 1)     {
+					document.getElementById("hoursBtn").innerHTML = 'MON | CLOSED';
+				}
+
+				if (d.getDay() == 2)     {
+					document.getElementById("hoursBtn").innerHTML = 'TUES | 4PM - 9PM';
+				}
+
+				if (d.getDay() == 3)     {
+					document.getElementById("hoursBtn").innerHTML = 'WED | 4PM - 9PM';
+				}
+
+				if (d.getDay() == 4)     {
+					document.getElementById("hoursBtn").innerHTML = 'THURS | 4PM - 9PM';
+				}
+
+				if (d.getDay() == 5)     {
+					document.getElementById("hoursBtn").innerHTML = 'FRI | 4PM - 9PM';
+				}
+
+				if (d.getDay() == 6)     {
+					document.getElementById("hoursBtn").innerHTML = 'SAT | 4PM - 9PM';
+				}                                     
+			}
+	</script>
+<!-- //here ends scrolling icon -->
+</body>	
+</html>
